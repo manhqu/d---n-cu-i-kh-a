@@ -1,6 +1,6 @@
 
 let Login = document.getElementById("Login-Login");
-    
+   
 Login.addEventListener("submit", (e) => {
     e.preventDefault()
     
@@ -50,7 +50,7 @@ Login.addEventListener("submit", (e) => {
                     }
                 ]));
             }
-            location.replace("../login/login.html")
+            location.replace("../Home.html")
     }
 
 })
